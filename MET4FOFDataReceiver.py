@@ -725,7 +725,7 @@ class Sensor:
                 + hex(self.Description.ID)
                 + "_"
                 + str(self.ASCIIDumpFileCount).zfill(5)
-                + ".dump"
+                + ".csv"
         )
         print("created new dumpfile "+filename)
         self.DumpfileASCII = open(filename, "a")
