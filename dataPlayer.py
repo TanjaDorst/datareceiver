@@ -242,4 +242,4 @@ class SensorDataPlayer:
 
 
 if __name__ == "__main__":
-    Player=SensorDataPlayer('../data/2020-03-03_Messungen_MPU9250_SN12 Frequenzgang_Firmware_0.3.0/mpu9250_12_10_hz_250_Hz_6wdh.dump')
+    Player=SensorDataPlayer('C:\\Users\\tdors\\Documents\\Python Scripts\\datareceiver\\data\\Met4FOF_mpu9250_Z_Acc_10_hz_250_hz_6rep.dump')
