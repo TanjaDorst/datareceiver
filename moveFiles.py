@@ -11,18 +11,19 @@ import shutil
 
 
 # Quelle
-quelle = ".\\testdatafolder\\"
+quelle = ".\\Achse8_PTB\\"
       
 # Ziel (Der Ordner muss auf der Festplatte bereits angelegt sein)
-ziel = "E:\\TEST\\"
+# Statt IP Adresse Ordner einfach einbinden im Explorer
+ziel = "Z:\\Achse8_PTB\\PTB_Board\\"
 
 def Datenaufzeichnung(start=True):
     i = 0
     while start:
-        time.sleep(5)
+        time.sleep(30)
         moveFiles(quelle, ziel)
         i = i + 1
-        print("Verschiebung Nummer" + str(i))    
+        print("Verschiebung Nummer " + str(i))    
 
 def moveFiles(quelle,ziel):
     
@@ -115,4 +116,6 @@ def removeFiles(ziel,quelle):
             print("Kopie hat nicht geklappt: "+data_re[i]) 
             pass    
         
-Datenaufzeichnung(True)
+#Datenaufzeichnung(True)
+            
+  
