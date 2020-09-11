@@ -1412,3 +1412,9 @@ if __name__ == "__main__":
     #GP.SetCallback(RFFTNode.pushData)
 # func_stats = yappi.get_func_stats()
 # func_stats.save('./callgrind.out.', 'CALLGRIND')
+
+# Starten
+# DR.StartDumpingAllSensorsASCII(folder="Achse8_PTB",splittime=3600)
+# Beenden
+# DR.StopDumpingAllSensorsASCII()
+    
